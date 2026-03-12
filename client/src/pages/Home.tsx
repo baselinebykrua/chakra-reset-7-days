@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ChevronDown, Music, FileText, BookOpen } from "lucide-react";
-import { useState } from "react";
+import { ChevronDown, Music, FileText, BookOpen, Play, Pause } from "lucide-react";
+import { useState, useRef } from "react";
 
 /**
  * Design Philosophy: Wellness Minimalism with Spiritual Depth
@@ -21,6 +21,7 @@ const chakraData = [
     goal: "สร้างรากฐานความมั่นคง ความรู้สึกปลอดภัย และการกลับมาเชื่อมต่อกับร่างกาย",
     benefits: ["ความมั่นคง", "ความปลอดภัย", "การเชื่อมต่อกับร่างกาย"],
     audio: "Grounding Meditation",
+    audioUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/chakra1-meditation_558a7052.mp3",
     pdf: "Fear Assessment, Affirmation, Journaling",
     image: "https://private-us-east-1.manuscdn.com/sessionFile/hxbEtpqyVt6LOzLuStSM6A/sandbox/aj0mPNF0oSCFEe4LpznrRI-img-2_1771746671000_na1fn_Y2hha3JhLXJvb3Q.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaHhiRXRwcXlWdDZMT3pMdVN0U002QS9zYW5kYm94L2FqMG1QTkYwb1NDRkVlNExwem5yUkktaW1nLTJfMTc3MTc0NjY3MTAwMF9uYTFmbl9ZMmhoYTNKaExYSnZiM1EucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=nMAnsHFO00hIudQ4d1EplN63utXfx38rmBNxbd0~1iwBAg1F5H5Hb3cdijCAvBwlq0Ekws3QVesR49DYmUPehFbT9l1t~rs~d1BV-a-2XjZgbxLXlHsSIvUdaPDTDngCsHTLt7CGcUAgXy1BZGb31nMKkJI9F6DauoTmW3KQ9AZJKca1jPnJp1TrAirrFHuxVTdASyKswbEUi6gXKsgeOK845J0K2cJtigWGMDQ1yGs8Rp~e1CieVrcPxO0MnPw5vuqza2ZD4PKvF6x4PXiHFJ3frFkis~qSaGDi3WHXZRY4BG8-boGOhRoUtogMK7bKqEY9GHM-0BVI6EtVp6rMvg__",
   },
@@ -99,6 +100,24 @@ const chakraData = [
 ];
 
 function ChakraCard({ chakra, isExpanded, onToggle }: any) {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
+
+  const toggleAudio = () => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        audioRef.current.pause();
+      } else {
+        audioRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
+  const handleAudioEnd = () => {
+    setIsPlaying(false);
+  };
+
   return (
     <div className="mb-8 scroll-mt-20" id={`day-${chakra.day}`}>
       <div
@@ -196,6 +215,22 @@ function ChakraCard({ chakra, isExpanded, onToggle }: any) {
               </div>
             </div>
 
+            {/* Audio Player */}
+            {chakra.audioUrl && (
+              <div className="bg-white p-4 rounded-lg border border-gray-200">
+                <p className="text-sm font-semibold text-gray-700 mb-3">
+                  🎧 เครื่องเล่นเสียง
+                </p>
+                <audio
+                  ref={audioRef}
+                  src={chakra.audioUrl}
+                  onEnded={handleAudioEnd}
+                  className="w-full"
+                  controls
+                />
+              </div>
+            )}
+
             {/* Image */}
             {chakra.image && (
               <div className="rounded-lg overflow-hidden">
@@ -209,13 +244,35 @@ function ChakraCard({ chakra, isExpanded, onToggle }: any) {
 
             {/* CTA Buttons */}
             <div className="flex gap-3 pt-4">
-              <Button
-                className="flex-1 text-white font-semibold transition-all hover:scale-105"
-                style={{ backgroundColor: chakra.chakraColor }}
-              >
-                <Music className="w-4 h-4 mr-2" />
-                ฟังเสียงสมาธิ
-              </Button>
+              {chakra.audioUrl && (
+                <Button
+                  onClick={toggleAudio}
+                  className="flex-1 text-white font-semibold transition-all hover:scale-105"
+                  style={{ backgroundColor: chakra.chakraColor }}
+                >
+                  {isPlaying ? (
+                    <>
+                      <Pause className="w-4 h-4 mr-2" />
+                      หยุดเสียง
+                    </>
+                  ) : (
+                    <>
+                      <Play className="w-4 h-4 mr-2" />
+                      ฟังเสียงสมาธิ
+                    </>
+                  )}
+                </Button>
+              )}
+              {!chakra.audioUrl && (
+                <Button
+                  disabled
+                  className="flex-1 text-white font-semibold opacity-50"
+                  style={{ backgroundColor: chakra.chakraColor }}
+                >
+                  <Music className="w-4 h-4 mr-2" />
+                  ฟังเสียงสมาธิ (เร็ว ๆ นี้)
+                </Button>
+              )}
               <Button
                 variant="outline"
                 className="flex-1 font-semibold"
