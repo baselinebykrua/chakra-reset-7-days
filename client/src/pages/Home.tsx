@@ -22,7 +22,7 @@ const chakraData = [
     benefits: ["ความมั่นคง", "ความปลอดภัย", "การเชื่อมต่อกับร่างกาย"],
     audio: "Grounding Meditation",
     audioUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/chakra1-meditation_558a7052.mp3",
-    image: "https://private-us-east-1.manuscdn.com/sessionFile/hxbEtpqyVt6LOzLuStSM6A/sandbox/aj0mPNF0oSCFEe4LpznrRI-img-2_1771746671000_na1fn_Y2hha3JhLXJvb3Q.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaHhiRXRwcXlWdDZMT3pMdVN0U002QS9zYW5kYm94L2FqMG1QTkYwb1NDRkVlNExwem5yUkktaW1nLTJfMTc3MTc0NjY3MTAwMF9uYTFmbl9ZMmhoYTNKaExYSnZiM1EucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=nMAnsHFO00hIudQ4d1EplN63utXfx38rmBNxbd0~1iwBAg1F5H5Hb3cdijCAvBwlq0Ekws3QVesR49DYmUPehFbT9l1t~rs~d1BV-a-2XjZgbxLXlHsSIvUdaPDTDngCsHTLt7CGcUAgXy1BZGb31nMKkJI9F6DauoTmW3KQ9AZJKca1jPnJp1TrAirrFHuxVTdASyKswbEUi6gXKsgeOK845J0K2cJtigWGMDQ1yGs8Rp~e1CieVrcPxO0MnPw5vuqza2ZD4PKvF6x4PXiHFJ3frFkis~qSaGDi3WHXZRY4BG8-boGOhRoUtogMK7bKqEY9GHM-0BVI6EtVp6rMvg__",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/01_root_chakra_muladhara(1)_64edb0b2.png",
   },
   {
     day: 2,
@@ -33,7 +33,7 @@ const chakraData = [
     goal: "ปลดล็อกอารมณ์ที่ตกค้าง ฟื้นฟูพลังสัญชาตญาณ ความคิดสร้างสรรค์ และความสุข",
     benefits: ["ความสุข", "ความคิดสร้างสรรค์", "การปล่อยอารมณ์"],
     audio: "Emotional Release Meditation",
-    image: "https://private-us-east-1.manuscdn.com/sessionFile/hxbEtpqyVt6LOzLuStSM6A/sandbox/aj0mPNF0oSCFEe4LpznrRI-img-3_1771746677000_na1fn_Y2hha3JhLWhlYXJ0.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaHhiRXRwcXlWdDZMT3pMdVN0U002QS9zYW5kYm94L2FqMG1QTkYwb1NDRkVlNExwem5yUkktaW1nLTNfMTc3MTc0NjY3NzAwMF9uYTFmbl9ZMmhoYTNKaExXaGxZWEowLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Jo1OfJpQYXVMKIlbqbiq27QLqQY5uxOakxmDcJYWg1gRoUPwpNrDLhEgOGL0-DU4rQ~dIFeCGWm1JG-4LYgrb--D32so7GgOHcUoInwdiVIPByHjzMg~ZxU0TFB68PYmiXqb1PLuwbVIsqTAgapw4eLQEasQCSpwnKDcEzaj4jpuHZZy2t63kbjNRL7KwnEvD09pzy214dLtZIrcWYuPcpfF0uNI59w~vyu39YOgoKExTjqrNOcA-w~k~q-iriTZThCws5NZa-6CyhQzQJfYYaRpp74NEaR8VlL3iwjna118UjMxRB3eVLdwkXvjEG0VBuM7GvEBAm1frMLIKP7yyA__",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/02_sacral_chakra_svadhisthana(1)_8cb68551.png",
   },
   {
     day: 3,
@@ -44,7 +44,7 @@ const chakraData = [
     goal: "ทวงคืนความมั่นใจ พลังใจ และการเคารพในตัวเอง (Self-worth)",
     benefits: ["ความมั่นใจ", "พลังใจ", "ความเคารพในตัวเอง"],
     audio: "Fire Element Meditation",
-    image: "https://private-us-east-1.manuscdn.com/sessionFile/hxbEtpqyVt6LOzLuStSM6A/sandbox/aj0mPNF0oSCFEe4LpznrRI-img-2_1771746671000_na1fn_Y2hha3JhLXJvb3Q.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaHhiRXRwcXlWdDZMT3pMdVN0U002QS9zYW5kYm94L2FqMG1QTkYwb1NDRkVlNExwem5yUkktaW1nLTJfMTc3MTc0NjY3MTAwMF9uYTFmbl9ZMmhoYTNKaExYSnZiM1EucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=nMAnsHFO00hIudQ4d1EplN63utXfx38rmBNxbd0~1iwBAg1F5H5Hb3cdijCAvBwlq0Ekws3QVesR49DYmUPehFbT9l1t~rs~d1BV-a-2XjZgbxLXlHsSIvUdaPDTDngCsHTLt7CGcUAgXy1BZGb31nMKkJI9F6DauoTmW3KQ9AZJKca1jPnJp1TrAirrFHuxVTdASyKswbEUi6gXKsgeOK845J0K2cJtigWGMDQ1yGs8Rp~e1CieVrcPxO0MnPw5vuqza2ZD4PKvF6x4PXiHFJ3frFkis~qSaGDi3WHXZRY4BG8-boGOhRoUtogMK7bKqEY9GHM-0BVI6EtVp6rMvg__",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/03_solar_plexus_manipura(1)_12bb02fa.png",
   },
   {
     day: 4,
@@ -55,7 +55,7 @@ const chakraData = [
     goal: "คลายรับาด ผล และจุดรองความสัมพันธ์ เรียนรู้ที่จะให้อภัย และเปิดรับความรัก (Self-Love)",
     benefits: ["ความรัก", "การให้อภัย", "ความเห็นอกเห็นใจ"],
     audio: "Green Light Heart Healing",
-    image: "https://private-us-east-1.manuscdn.com/sessionFile/hxbEtpqyVt6LOzLuStSM6A/sandbox/aj0mPNF0oSCFEe4LpznrRI-img-3_1771746677000_na1fn_Y2hha3JhLWhlYXJ0.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaHhiRXRwcXlWdDZMT3pMdVN0U002QS9zYW5kYm94L2FqMG1QTkYwb1NDRkVlNExwem5yUkktaW1nLTNfMTc3MTc0NjY3NzAwMF9uYTFmbl9ZMmhoYTNKaExXaGxZWEowLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=Jo1OfJpQYXVMKIlbqbiq27QLqQY5uxOakxmDcJYWg1gRoUPwpNrDLhEgOGL0-DU4rQ~dIFeCGWm1JG-4LYgrb--D32so7GgOHcUoInwdiVIPByHjzMg~ZxU0TFB68PYmiXqb1PLuwbVIsqTAgapw4eLQEasQCSpwnKDcEzaj4jpuHZZy2t63kbjNRL7KwnEvD09pzy214dLtZIrcWYuPcpfF0uNI59w~vyu39YOgoKExTjqrNOcA-w~k~q-iriTZThCws5NZa-6CyhQzQJfYYaRpp74NEaR8VlL3iwjna118UjMxRB3eVLdwkXvjEG0VBuM7GvEBAm1frMLIKP7yyA__",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/04_heart_chakra_anahata(1)_f1f0dc28.png",
   },
   {
     day: 5,
@@ -66,7 +66,7 @@ const chakraData = [
     goal: "กล้าส่ือสารความจริง การตั้งขอบเขต และพูดในสิ่งที่ต้องการจริงๆ (Boundaries)",
     benefits: ["การสื่อสาร", "การตั้งขอบเขต", "ความสำคัญของตัวเอง"],
     audio: "Sound Healing / Throat Release",
-    image: "https://private-us-east-1.manuscdn.com/sessionFile/hxbEtpqyVt6LOzLuStSM6A/sandbox/aj0mPNF0oSCFEe4LpznrRI-img-2_1771746671000_na1fn_Y2hha3JhLXJvb3Q.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaHhiRXRwcXlWdDZMT3pMdVN0U002QS9zYW5kYm94L2FqMG1QTkYwb1NDRkVlNExwem5yUkktaW1nLTJfMTc3MTc0NjY3MTAwMF9uYTFmbl9ZMmhoYTNKaExYSnZiM1EucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=nMAnsHFO00hIudQ4d1EplN63utXfx38rmBNxbd0~1iwBAg1F5H5Hb3cdijCAvBwlq0Ekws3QVesR49DYmUPehFbT9l1t~rs~d1BV-a-2XjZgbxLXlHsSIvUdaPDTDngCsHTLt7CGcUAgXy1BZGb31nMKkJI9F6DauoTmW3KQ9AZJKca1jPnJp1TrAirrFHuxVTdASyKswbEUi6gXKsgeOK845J0K2cJtigWGMDQ1yGs8Rp~e1CieVrcPxO0MnPw5vuqza2ZD4PKvF6x4PXiHFJ3frFkis~qSaGDi3WHXZRY4BG8-boGOhRoUtogMK7bKqEY9GHM-0BVI6EtVp6rMvg__",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/05_throat_chakra_vishuddha(1)_724589bf.png",
   },
   {
     day: 6,
@@ -77,7 +77,7 @@ const chakraData = [
     goal: "ปิดสวิตช์ความสับสนวุ่นวาย เชื่อมต่อกับสัญชาตญาณ และมองเห็นเป้าหมายชัดเจนขึ้น (Intuition)",
     benefits: ["สัญชาตญาณ", "ความชัดเจน", "การเยียวยาตัวเอง"],
     audio: "Subconscious Guided Meditation",
-    image: "https://private-us-east-1.manuscdn.com/sessionFile/hxbEtpqyVt6LOzLuStSM6A/sandbox/aj0mPNF0oSCFEe4LpznrRI-img-2_1771746671000_na1fn_Y2hha3JhLXJvb3Q.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaHhiRXRwcXlWdDZMT3pMdVN0U002QS9zYW5kYm94L2FqMG1QTkYwb1NDRkVlNExwem5yUkktaW1nLTJfMTc3MTc0NjY3MTAwMF9uYTFmbl9ZMmhoYTNKaExYSnZiM1EucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=nMAnsHFO00hIudQ4d1EplN63utXfx38rmBNxbd0~1iwBAg1F5H5Hb3cdijCAvBwlq0Ekws3QVesR49DYmUPehFbT9l1t~rs~d1BV-a-2XjZgbxLXlHsSIvUdaPDTDngCsHTLt7CGcUAgXy1BZGb31nMKkJI9F6DauoTmW3KQ9AZJKca1jPnJp1TrAirrFHuxVTdASyKswbEUi6gXKsgeOK845J0K2cJtigWGMDQ1yGs8Rp~e1CieVrcPxO0MnPw5vuqza2ZD4PKvF6x4PXiHFJ3frFkis~qSaGDi3WHXZRY4BG8-boGOhRoUtogMK7bKqEY9GHM-0BVI6EtVp6rMvg__",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/06_third_eye_ajna(1)_cf093cc9.png",
   },
   {
     day: 7,
@@ -88,7 +88,7 @@ const chakraData = [
     goal: "จัดศูนย์รวมพลังงานทั้งหมด เชื่อมต่อกับตัวตนที่สูงกว่า และความสงบสบาย (Higher Self)",
     benefits: ["การเชื่อมต่อจิตใจ", "ความสงบ", "ความสมดุล"],
     audio: "Deep Brain Wave Meditation",
-    image: "https://private-us-east-1.manuscdn.com/sessionFile/hxbEtpqyVt6LOzLuStSM6A/sandbox/aj0mPNF0oSCFEe4LpznrRI-img-4_1771746671000_na1fn_Y2hha3JhLWNyb3du.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvaHhiRXRwcXlWdDZMT3pMdVN0U002QS9zYW5kYm94L2FqMG1QTkYwb1NDRkVlNExwem5yUkktaW1nLTRfMTc3MTc0NjY3MTAwMF9uYTFmbl9ZMmhoYTNKaExXTnliM2R1LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=p8LvNfC34a759tNM7gCjSkfPXqMKtQ6B1bbMClBkxgV6qTvpQuL8zSoi7XdlztHGsqE61dAVuu2DPGdC8IadMo6ZJAId7UviVER7m9jfVoLt4wsbGk6T0M3jKx~J~QUaNQ1VVt-UlEOjmKbSr9-9vojaWbHvBxlkZfNgqKdWk5R~vRRVnvA0ERFkq8EaMhLrOlhwFmNeQUtr7Zrk0NJAn1MZ2BrDMy7yVippE2nVuq~0bzlEWyVdv~8Xx6OFeQmPyrXGbLkIcWvmyH-ZVFdBbwo1VRsZlRJ7qAKTelXJz1j~5L01d1waePxLYnUUEvNCJ8h4bj6FE-GrirjQ8TsZzQ__",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/07_crown_chakra_sahasrara(1)_9255ddb9.png",
   },
 ];
 
