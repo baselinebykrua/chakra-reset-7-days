@@ -342,22 +342,14 @@ export default function Home() {
       </section>
 
       {/* Bonus Section */}
-      <section className="bg-gradient-to-r from-amber-100 to-amber-50 py-12 mt-12">
+      {/* Preparation Section */}
+      <section className="py-12 mt-12">
         <div className="container">
           <h2 className="text-3xl font-bold text-gray-800 mb-8">
-            ✨ โบนัสพิเศษ
+            เตรียมตัวก่อนการเดินทาง
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card className="p-6 border-l-4" style={{ borderLeftColor: "#d4a574" }}>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">
-                Pre-Course Guide
-              </h3>
-              <p className="text-gray-600">
-                แนะนำวิธีเตรียมตัว ก่อนการเดินทาง
-              </p>
-            </Card>
-
+          <div className="grid md:grid-cols-2 gap-6">
             <Card className="p-6 border-l-4" style={{ borderLeftColor: "#d4a574" }}>
               <h3 className="text-xl font-bold text-gray-800 mb-3">
                 7-Day Chakra Reset Introduction
@@ -367,6 +359,26 @@ export default function Home() {
               </p>
             </Card>
 
+            <Card className="p-6 border-l-4" style={{ borderLeftColor: "#d4a574" }}>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">
+                Pre-Course Guide
+              </h3>
+              <p className="text-gray-600">
+                แนะนำวิธีเตรียมตัว ก่อนการเดินทาง
+              </p>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Bonus Section */}
+      <section className="bg-gradient-to-r from-amber-100 to-amber-50 py-12 mt-12">
+        <div className="container">
+          <h2 className="text-3xl font-bold text-gray-800 mb-8">
+            ✨ โบนัสพิเศษ
+          </h2>
+
+          <div className="grid md:grid-cols-1 gap-6">
             <Card className="p-6 border-l-4" style={{ borderLeftColor: "#d4a574" }}>
               <h3 className="text-xl font-bold text-gray-800 mb-3">
                 SOS Audio Track
