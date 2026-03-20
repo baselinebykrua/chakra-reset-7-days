@@ -269,14 +269,16 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 via-white to-amber-50">
       {/* Logo and Tagline Section */}
-      <section className="bg-gradient-to-b from-amber-50 to-white py-8">
-        <div className="container text-center">
-          <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/BaselineLogo1-2_9555240a.png"
-            alt="BASELINE by KruA"
-            className="mx-auto mb-4 h-40 object-contain"
-          />
-        </div>
+      <section className="w-full bg-cover bg-center bg-no-repeat py-20" style={{
+        backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/BaselineLogo1-2_9555240a.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '400px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}>
+        <div className="text-center"></div>
       </section>
 
       {/* Header */}
