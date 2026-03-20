@@ -21,7 +21,7 @@ const chakraData = [
     goal: "สร้างรากฐานความมั่นคง ความรู้สึกปลอดภัย และการกลับมาเชื่อมต่อกับร่างกาย",
     benefits: ["ความมั่นคง", "ความปลอดภัย", "การเชื่อมต่อกับร่างกาย"],
     audio: "Grounding Meditation",
-    audioUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/chakra1-meditation_558a7052.mp3",
+    audioUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/Chakra1Reset-Full_2816ec03.MP3",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/01_root_chakra_muladhara(1)_64edb0b2.png",
   },
   {
@@ -33,6 +33,7 @@ const chakraData = [
     goal: "ปลดล็อกอารมณ์ที่ตกค้าง ฟื้นฟูพลังสัญชาตญาณ ความคิดสร้างสรรค์ และความสุข",
     benefits: ["ความสุข", "ความคิดสร้างสรรค์", "การปล่อยอารมณ์"],
     audio: "Emotional Release Meditation",
+    audioUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/Chakra2Reset-Full_bbc68ed1.MP3",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/02_sacral_chakra_svadhisthana(1)_8cb68551.png",
   },
   {
@@ -44,6 +45,7 @@ const chakraData = [
     goal: "ทวงคืนความมั่นใจ พลังใจ และการเคารพในตัวเอง (Self-worth)",
     benefits: ["ความมั่นใจ", "พลังใจ", "ความเคารพในตัวเอง"],
     audio: "Fire Element Meditation",
+    audioUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/Chakra3Reset-Full_e43056aa.MP3",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/03_solar_plexus_manipura(1)_12bb02fa.png",
   },
   {
@@ -55,6 +57,7 @@ const chakraData = [
     goal: "คลายรับาด ผล และจุดรองความสัมพันธ์ เรียนรู้ที่จะให้อภัย และเปิดรับความรัก (Self-Love)",
     benefits: ["ความรัก", "การให้อภัย", "ความเห็นอกเห็นใจ"],
     audio: "Green Light Heart Healing",
+    audioUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/Chakra4Reset-Full_97d85539.MP3",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/04_heart_chakra_anahata(1)_f1f0dc28.png",
   },
   {
@@ -66,6 +69,7 @@ const chakraData = [
     goal: "กล้าส่ือสารความจริง การตั้งขอบเขต และพูดในสิ่งที่ต้องการจริงๆ (Boundaries)",
     benefits: ["การสื่อสาร", "การตั้งขอบเขต", "ความสำคัญของตัวเอง"],
     audio: "Sound Healing / Throat Release",
+    audioUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/Chakra5Reset-Full_aa162101.MP3",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/05_throat_chakra_vishuddha(1)_724589bf.png",
   },
   {
@@ -77,6 +81,7 @@ const chakraData = [
     goal: "ปิดสวิตช์ความสับสนวุ่นวาย เชื่อมต่อกับสัญชาตญาณ และมองเห็นเป้าหมายชัดเจนขึ้น (Intuition)",
     benefits: ["สัญชาตญาณ", "ความชัดเจน", "การเยียวยาตัวเอง"],
     audio: "Subconscious Guided Meditation",
+    audioUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/Chakra6Reset-Full_dda35735.MP3",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/06_third_eye_ajna(1)_cf093cc9.png",
   },
   {
@@ -88,6 +93,7 @@ const chakraData = [
     goal: "จัดศูนย์รวมพลังงานทั้งหมด เชื่อมต่อกับตัวตนที่สูงกว่า และความสงบสบาย (Higher Self)",
     benefits: ["การเชื่อมต่อจิตใจ", "ความสงบ", "ความสมดุล"],
     audio: "Deep Brain Wave Meditation",
+    audioUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/Chakra7Reset-Full_c02447be.MP3",
     image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/07_crown_chakra_sahasrara(1)_9255ddb9.png",
   },
 ];
