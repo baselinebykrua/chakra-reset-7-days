@@ -274,7 +274,7 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl font-bold text-gray-800">
-                Chakra Reset 7 Days
+                7-Day Chakra Reset
               </h1>
               <p className="text-gray-600 text-sm">
                 รีเซ็ตพลังงานเยียวยาจิตใจกลับมาเป็นตัวเอง
@@ -383,7 +383,7 @@ export default function Home() {
       <footer className="bg-gray-800 text-gray-300 py-8 mt-12">
         <div className="container text-center">
           <p className="mb-2">
-            © 2024 Chakra Reset 7 Days - รีเซ็ตพลังงานเยียวยาจิตใจ
+            © 2026 7-Day Chakra Reset - รีเซ็ตพลังงานเยียวยาจิตใจ
           </p>
           <p className="text-sm text-gray-500">
             โปรแกรมเยียวยาตัวเองผ่านพลังงานจักระทั้ง 7
