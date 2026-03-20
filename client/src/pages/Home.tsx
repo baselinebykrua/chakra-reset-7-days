@@ -321,27 +321,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Main Content - Chakra Cards */}
-      <section className="container py-12">
-        <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-          ทั้ง 7 วันของการเดินทาง
-        </h2>
-
-        <div className="space-y-4">
-          {chakraData.map((chakra) => (
-            <ChakraCard
-              key={chakra.day}
-              chakra={chakra}
-              isExpanded={expandedDay === chakra.day}
-              onToggle={() =>
-                setExpandedDay(expandedDay === chakra.day ? null : chakra.day)
-              }
-            />
-          ))}
-        </div>
-      </section>
-
-      {/* Bonus Section */}
       {/* Preparation Section */}
       <section className="py-12 mt-12">
         <div className="container">
@@ -368,6 +347,26 @@ export default function Home() {
               </p>
             </Card>
           </div>
+        </div>
+      </section>
+
+      {/* Main Content - Chakra Cards */}
+      <section className="container py-12">
+        <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
+          ทั้ง 7 วันของการเดินทาง
+        </h2>
+
+        <div className="space-y-4">
+          {chakraData.map((chakra) => (
+            <ChakraCard
+              key={chakra.day}
+              chakra={chakra}
+              isExpanded={expandedDay === chakra.day}
+              onToggle={() =>
+                setExpandedDay(expandedDay === chakra.day ? null : chakra.day)
+              }
+            />
+          ))}
         </div>
       </section>
 
