@@ -360,10 +360,10 @@ export default function Home() {
 
             <Card className="p-6 border-l-4" style={{ borderLeftColor: "#d4a574" }}>
               <h3 className="text-xl font-bold text-gray-800 mb-3">
-                Sacred Space Setup
+                7-Day Chakra Reset Introduction
               </h3>
               <p className="text-gray-600">
-                สร้างพื้นที่ศักดิ์สิทธิ์ส่วนตัว เพื่อเพิ่มประสิทธิภาพการปฏิบัติ
+                รู้จักคอร์สนี้
               </p>
             </Card>
 
