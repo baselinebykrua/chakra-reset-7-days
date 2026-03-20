@@ -354,7 +354,7 @@ export default function Home() {
                 Pre-Course Guide
               </h3>
               <p className="text-gray-600">
-                แนะนำวิธีเตรียมตัว การจัดบรรยากาศห้อง การดื่มน้ำ และการเปิดใจรับฟัง
+                แนะนำวิธีเตรียมตัว ก่อนการเดินทาง
               </p>
             </Card>
 
