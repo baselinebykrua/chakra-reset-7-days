@@ -333,18 +333,26 @@ export default function Home() {
               <h3 className="text-xl font-bold text-gray-800 mb-3">
                 7-Day Chakra Reset Introduction
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mb-4">
                 รู้จักคอร์สนี้
               </p>
+              <audio controls className="w-full">
+                <source src="https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/7-DayChakraResetIntroduction_1617a47f.MP3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </Card>
 
             <Card className="p-6 border-l-4" style={{ borderLeftColor: "#d4a574" }}>
               <h3 className="text-xl font-bold text-gray-800 mb-3">
                 Pre-Course Guide
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mb-4">
                 แนะนำวิธีเตรียมตัว ก่อนการเดินทาง
               </p>
+              <audio controls className="w-full">
+                <source src="https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/Pre-CourseGuide_60044acc.MP3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
             </Card>
           </div>
         </div>
