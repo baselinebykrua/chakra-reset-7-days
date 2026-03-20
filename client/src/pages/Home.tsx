@@ -269,16 +269,18 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 via-white to-amber-50">
       {/* Logo and Tagline Section */}
-      <section className="w-full bg-cover bg-center bg-no-repeat py-20" style={{
+      <section className="w-full bg-cover bg-center bg-no-repeat" style={{
         backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/BaselineLogo1-2_9555240a.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        minHeight: '400px',
+        backgroundAttachment: 'fixed',
+        minHeight: '450px',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        padding: '40px 20px'
       }}>
-        <div className="text-center"></div>
+        <div className="text-center max-w-4xl"></div>
       </section>
 
       {/* Header */}
