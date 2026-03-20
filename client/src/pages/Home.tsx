@@ -298,12 +298,6 @@ export default function Home() {
                 </span>
               </div>
               <div className="flex items-center gap-3">
-                <FileText className="w-5 h-5 text-amber-600" />
-                <span className="text-gray-700">
-                  แบบฝึกหัดและการเขียนบันทึก
-                </span>
-              </div>
-              <div className="flex items-center gap-3">
                 <BookOpen className="w-5 h-5 text-amber-600" />
                 <span className="text-gray-700">
                   คำแนะนำเตรียมตัวและพื้นที่ศักดิ์สิทธิ์
