@@ -268,6 +268,17 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 via-white to-amber-50">
+      {/* Logo and Tagline Section */}
+      <section className="bg-gradient-to-b from-amber-50 to-white py-8">
+        <div className="container text-center">
+          <img
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/BaselineLogo1-1_000c352a.png"
+            alt="BASELINE by KruA"
+            className="mx-auto mb-4 h-32 object-contain"
+          />
+        </div>
+      </section>
+
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white bg-opacity-95 backdrop-blur-sm border-b border-gray-200 shadow-sm">
         <div className="container py-4">
@@ -398,6 +409,50 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section className="bg-gradient-to-r from-amber-100 to-amber-50 py-12 mt-12">
+        <div className="container text-center">
+          <h2 className="text-2xl font-bold text-gray-800 mb-8">
+            ติดต่อเรา
+          </h2>
+          <div className="flex justify-center gap-8 flex-wrap">
+            <a
+              href="https://instagram.com/Baseline by Kru A"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-2 hover:opacity-75 transition"
+            >
+              <div className="w-12 h-12 bg-gradient-to-br from-pink-400 to-purple-500 rounded-full flex items-center justify-center text-white text-xl">
+                📷
+              </div>
+              <span className="text-gray-700 font-medium">Instagram</span>
+            </a>
+            <a
+              href="https://facebook.com/Baseline by Kru A"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-2 hover:opacity-75 transition"
+            >
+              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white text-xl">
+                f
+              </div>
+              <span className="text-gray-700 font-medium">Facebook</span>
+            </a>
+            <a
+              href="https://line.me/ti/p/BASELINE by Kru A"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-2 hover:opacity-75 transition"
+            >
+              <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white text-xl">
+                L
+              </div>
+              <span className="text-gray-700 font-medium">LINE</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-800 text-gray-300 py-8 mt-12">
         <div className="container text-center">
@@ -405,7 +460,7 @@ export default function Home() {
             © 2026 7-Day Chakra Reset - รีเซ็ตพลังงานเยียวยาจิตใจ
           </p>
           <p className="text-sm text-gray-500">
-            โปรแกรมเยียวยาตัวเองผ่านพลังงานจักระทั้ง 7
+            โปรแกรมเยียวยตัวเองผ่านพลังงานจักระทั้ง 7
           </p>
         </div>
       </footer>
