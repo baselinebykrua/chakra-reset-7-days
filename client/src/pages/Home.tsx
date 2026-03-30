@@ -406,7 +406,7 @@ export default function Home() {
                 SOS Audio Track
               </h3>
               <p className="text-gray-600">
-                ไฟล์เสียงสั้น 3 นาที สำหรับฟังเวลาแพนิกหรือหลุดโฟกัส
+                คลิปเสียงฮีลใจ 5 นาที เมื่อต้องการที่พักใจ
               </p>
             </Card>
           </div>
