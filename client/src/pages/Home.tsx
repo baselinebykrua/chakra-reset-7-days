@@ -405,9 +405,13 @@ export default function Home() {
               <h3 className="text-xl font-bold text-gray-800 mb-3">
                 SOS Audio Track
               </h3>
-              <p className="text-gray-600">
-                คลิปเสียงฮีลใจ 5 นาที เมื่อต้องการที่พักใจ
+              <p className="text-gray-600 mb-4">
+                คลิปเสียงฮีลใจ เมื่อต้องการที่พักใจ
               </p>
+              <audio controls className="w-full">
+                <source src="https://d2xsxph8kpxj0f.cloudfront.net/310519663374053388/HGjGwyUt25tZ9jny8iaQBp/HealingGift_951de2b3.WAV" type="audio/wav" />
+                Your browser does not support the audio element.
+              </audio>
             </Card>
           </div>
         </div>
